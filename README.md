@@ -21,7 +21,6 @@ The main objective of this project is to apply and practice the SQL concepts I h
 3- Retrieve and combine data using SQL JOIN queries while improving my understanding of data integrity and SQL query writing.
 
 SQL Queries
------------------------------------------------------------------------------------------------
 select Club_Employees.Employee_ID,Club_Employees.Employee_Name,Financial_Data.Basic_Salary ,Operational_Data.Job_Position,Employee_Contact_Information.Phone_Number
 from Club_Employees
 right join Financial_Data 
@@ -30,7 +29,7 @@ join Operational_Data
 on Financial_Data.Employee_ID = Operational_Data.Employee_ID
 join Employee_Contact_Information
 on Operational_Data.Employee_ID = Employee_Contact_Information.Employee_ID
---------------------------------------------------------------------------
+
 
 
 
