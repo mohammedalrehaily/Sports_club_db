@@ -20,4 +20,30 @@ The main objective of this project is to apply and practice the SQL concepts I h
 
 3- Retrieve and combine data using SQL JOIN queries while improving my understanding of data integrity and SQL query writing.
 
+
+Project Results 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ⚠️Note: All data, including names, numbers, and locations, are fictional and created for learning purposes only.
