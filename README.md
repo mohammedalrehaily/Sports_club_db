@@ -21,9 +21,10 @@ The main objective of this project is to apply and practice the SQL concepts I h
 3- Retrieve and combine data using SQL JOIN queries while improving my understanding of data integrity and SQL query writing.
 
 SQL Queries
+
 JOIN
 
-
+<p align="center"> <img src="1000161300.gif"> </p>
 
 
 
