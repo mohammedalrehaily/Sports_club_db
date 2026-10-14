@@ -2,7 +2,7 @@
 
 <p align="center"> <img src="DB_ERD.png"> </p>
 
- 📝 Project Description
+📝 Project Description
 
 Employee Management Database for a Sports Club
 
@@ -10,7 +10,7 @@ Club Employee Database is a relational database project designed to organize and
 
 The project uses Microsoft SQL Server and SQL to demonstrate relational database design, primary and foreign keys, one-to-one relationships, table creation, and data retrieval using JOIN queries.
 
- 🎯 Project Objectives 
+🎯 Project Objectives 
 
 The main objective of this project is to apply and practice the SQL concepts I have learned through a practical database project using Microsoft SQL Server.
 
@@ -20,7 +20,7 @@ The main objective of this project is to apply and practice the SQL concepts I h
 
 3- Retrieve and combine data using SQL JOIN queries while improving my understanding of data integrity and SQL query writing.
 
-SQL Queries
+🛢️ SQL Queries
 
 JOIN
 
@@ -44,7 +44,7 @@ order by function
 
 
 
-Project Results 
+📊 Project Results 
 
 1- Created a relational database using Microsoft SQL Server.
 
