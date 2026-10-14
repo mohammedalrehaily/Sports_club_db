@@ -1,4 +1,4 @@
-# Sports_club_db
+Sports Club Database
 
 <p align="center"> <img src="DB_ERD.png"> </p>
 
