@@ -1,6 +1,6 @@
 CREATE DATABASE Qwex_Club;
 
-USE QWEX_Club;
+USE Qwex_Club;
 
 -- 1. Main Employee Table
 CREATE TABLE Club_Employees (
