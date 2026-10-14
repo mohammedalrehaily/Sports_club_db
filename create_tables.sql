@@ -1,4 +1,4 @@
-CREATE DATABASE QWEX_Club;
+CREATE DATABASE Qwex_Club;
 
 USE QWEX_Club;
 
@@ -15,21 +15,7 @@ ADD CONSTRAINT UQ_main_inofrmations_Employee_Name
 UNIQUE (Employee_Name);
 
 
--- 2. Financial Information Table
-CREATE TABLE Financial_Data (
-    Employee_ID INT PRIMARY KEY,
-    Basic_Salary DECIMAL(10,2),
-    Allowances DECIMAL(10,2),
-    Commission DECIMAL(10,2),
-    Bonuses DECIMAL(10,2),
-    Total_Salary DECIMAL(10,2),
-
-    CONSTRAINT FK_Financial_Data
-        FOREIGN KEY (Employee_ID)
-        REFERENCES Club_Employees(Employee_ID)
-);
-
--- 3. Employee Contact Information Table
+-- 2. Employee Contact Information Table
 CREATE TABLE Employee_Contact_Information (
     Employee_ID INT PRIMARY KEY,
     Email VARCHAR(225),
@@ -41,6 +27,22 @@ CREATE TABLE Employee_Contact_Information (
         FOREIGN KEY (Employee_ID)
         REFERENCES Club_Employees(Employee_ID)
 );
+
+
+-- 3. Financial Information Table
+CREATE TABLE Financial_Data (
+    Employee_ID INT PRIMARY KEY,
+    Basic_Salary INT,
+    Allowances INT,
+    Commission INT,
+    Bonuses INT,
+    Total_Salary INT,
+
+    CONSTRAINT FK_Financial_Data
+        FOREIGN KEY (Employee_ID)
+        REFERENCES Club_Employees(Employee_ID)
+);
+
 
 -- 4. Operational Information Table
 CREATE TABLE Operational_Data (
