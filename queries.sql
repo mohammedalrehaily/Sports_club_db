@@ -48,3 +48,40 @@ VALUES
 (7, 'Mohammed Bader', 'Clubs & Teams Manager'),
 (8, 'Frank Marlen', 'Maintenance Supervisor');
 
+
+
+--- SQL QUERIES
+
+-- RIGHT JOIN 
+
+
+SELECT
+    Club_Employees.Employee_ID,
+    Club_Employees.Employee_Name,
+    Financial_Data.Basic_Salary,
+    Operational_Data.Job_Position,
+    Employee_Contact_Information.Phone_Number
+FROM Club_Employees
+RIGHT JOIN Financial_Data
+    ON Club_Employees.Employee_ID = Financial_Data.Employee_ID
+JOIN Operational_Data
+    ON Financial_Data.Employee_ID = Operational_Data.Employee_ID
+JOIN Employee_Contact_Information
+    ON Operational_Data.Employee_ID = Employee_Contact_Information.Employee_ID;
+
+
+-- ORDER BY 
+  
+SELECT
+    Employee_ID,
+    Employee_Name,
+    Employee_Gender,
+    Employee_Department
+FROM Club_Employees
+ORDER BY Employee_Department;
+
+-- WHERE
+SELECT * FROM Financial_Data
+WHERE Basic_Salary > 20000
+
+
