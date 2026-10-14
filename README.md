@@ -32,12 +32,17 @@ JOIN
 where function 
 
 ص
-
+<p align="center"> <img src="1000161400.gif"> </p>
 
 
 
 
 order by function
+
+
+<p align="center"> <img src="1000161399.gif"> </p>
+
+
 
 Project Results 
 
