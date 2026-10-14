@@ -10,6 +10,11 @@ CREATE TABLE Club_Employees (
     Employee_Department VARCHAR(225)
 );
 
+ALTER TABLE Club_Employees
+ADD CONSTRAINT UQ_main_inofrmations_Employee_Name
+UNIQUE (Employee_Name);
+
+
 -- 2. Financial Information Table
 CREATE TABLE Financial_Data (
     Employee_ID INT PRIMARY KEY,
