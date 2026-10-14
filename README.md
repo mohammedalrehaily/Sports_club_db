@@ -31,7 +31,7 @@ JOIN
 
 where function 
 
-ص
+
 <p align="center"> <img src="1000161400.gif"> </p>
 
 
@@ -46,6 +46,15 @@ order by function
 
 Project Results 
 
+1- Created a relational database using Microsoft SQL Server.
+
+2- Designed four related tables to organize employee data.
+
+3- Implemented primary and foreign keys to establish one-to-one relationships.
+
+4- Practiced JOIN queries to retrieve data from multiple tables.
+
+5- Improved my understanding of relational database design and data integrity.
 
 
 
